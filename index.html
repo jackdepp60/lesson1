@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #0f0f0f;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 2rem;
+      text-align: center;
+      background: #1a1a1a;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+      border-bottom: 2px solid #444;
+      display: inline-block;
+    }
+
+    .about p {
+      margin-bottom: 1rem;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .project {
+      background: #1c1c1c;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .project h3 {
+      margin-bottom: 0.5rem;
+    }
+
+    .contact a {
+      display: inline-block;
+      margin-right: 1rem;
+      text-decoration: none;
+      color: #00bcd4;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #1a1a1a;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Gray-em Erezo</h1>
+    <p>Web Developer • UI/UX Designer</p>
+  </header>
+
+  <section class="about">
+    <h2 class="section-title">About Me</h2>
+    <p>Hello! Call me Gray, a passionate student web developer who loves building sleek and efficient websites. I enjoy solving complex problems and continuously learning new technologies.</p>
+  </section>
+
+  <section class="portfolio">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <h3>Project One</h3>
+        <p>A responsive landing page for a tech startup, built using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project">
+        <h3>Project Two</h3>
+        <p>An interactive to-do app with real-time syncing and a clean UI.</p>
+      </div>
+      <div class="project">
+        <h3>Project Three</h3>
+        <p>A portfolio website designed to showcase creative and technical skills.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2 class="section-title">Contact</h2>
+    <p>Email: <a href="mailto:gray@example.com">gray@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/jackdepp60" target="_blank">https://github.com/jackdepp60</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gray-em. All rights reserved.</p>
+  </footer>
+</body>
+</html>
